@@ -1,0 +1,96 @@
+/* Write your CSS code here */
+* {
+  font-family: 'Roboto';
+}
+.registration-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.registration-form {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.heading {
+  color: #ea580c;
+}
+.input-fields-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin: 5px;
+}
+.label-style {
+  color: #475569;
+  font-weight: bold;
+  font-size: 15px;
+}
+.input-style {
+  width: 280px;
+  color: #cbd2d9;
+  font-size: 16px;
+  font-weight: 300;
+  border: 2px solid #cbd2d9;
+  padding: 10px;
+  border-radius: 5px;
+}
+.blurred-style {
+  background-color: #fef2f4;
+  width: 280px;
+  color: #cbd2d9;
+  font-size: 16px;
+  font-weight: 300;
+  border: 2px solid #ff0b37;
+  padding: 10px;
+  border-radius: 5px;
+}
+.submit-btn {
+  background-color: #ea580c;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.submitted-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.submitted {
+  color: #475569;
+  font-size: 24px;
+  font-weight: 500;
+}
+.err-msg {
+  color: #ff0b37;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 1px;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .submit-btn {
+    align-self: stretch;
+    text-align: center;
+  }
+}
